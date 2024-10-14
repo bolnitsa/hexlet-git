@@ -2,3 +2,8 @@ echo > NEW.md
 git add NEW.md
 git commit -m 'add NEW.md'
 pit push
+git rm NEW.md
+echo 'git is awesome!' > INFO.md
+git add INFO.md
+git commit -m 'add INFO.md'
+git push
