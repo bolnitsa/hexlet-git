@@ -1,1 +1,4 @@
-
+echo > NEW.md
+git add NEW.md
+git commit -m 'add NEW.md'
+pit push
